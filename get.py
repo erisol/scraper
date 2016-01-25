@@ -143,8 +143,8 @@ class SjoScrape(object):
 		print writeline
 		
 		#write to file
-		#with open ("scrape/"+self.prefix+".txt",'a') as scraped:
-		#	scraped.write(writeline)
+		with open ("scrape/"+self.prefix+".txt",'a') as scraped:
+			scraped.write(writeline)
 		
 if __name__ == '__main__':
 
